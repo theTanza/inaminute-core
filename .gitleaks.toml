@@ -1,0 +1,12 @@
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Ignore local build and virtual-environment artifacts"
+paths = [
+  '''(^|/)\.venv/''',
+  '''(^|/)build/''',
+  '''(^|/)dist/''',
+  '''(^|/)[^/]+\.egg-info/''',
+  '''(^|/)\.coverage$''',
+]
